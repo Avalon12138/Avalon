@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/Sy/Sy",
+    "pages/Jqlq/Jqlq",
+    "pages/index/index",
+    "pages/Xx/Xx",
+    "pages/Rcqj/Rcqj"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#0066cc",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "请假记录",
+        "iconPath": "images/图片3.png",
+        "selectedIconPath": "images/图片4.png"
+      },
+      {
+        "pagePath": "pages/Sy/Sy",
+        "text": "首页",
+        "iconPath": "images/图片1.png",
+        "selectedIconPath": "images/图片2.png"
+      },
+      {
+        "pagePath": "pages/Xx/Xx",
+        "text": "个人信息",
+        "iconPath": "images/图片9.png",
+        "selectedIconPath": "images/图片10.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap48.json"
+}

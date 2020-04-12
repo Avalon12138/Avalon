@@ -1,0 +1,5 @@
+<!--pages/Sy/Sy.wxml-->
+<view class="Kong">
+  <button bindtap="bindViewTap1" class="Qjjlbutton">日常请假</button>
+  <button bindtap="bindViewTap2" class="Qjjlbutton">假期离寝</button>
+</view>

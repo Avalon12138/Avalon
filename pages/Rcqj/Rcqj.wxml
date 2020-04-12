@@ -1,0 +1,32 @@
+<form bindsubmit="Tijiao">
+  <view class="box">
+    <view class="Hang">
+      <view>时间：</view>
+      <input name="lxrqn" type="number" auto-focus="true"></input>
+      <view>年</view>
+      <input name="lxrqy" type="number"></input>
+      <view>月</view>
+      <input name="lxrqr" type="number"></input>
+      <view>日</view>
+    </view>
+    <view style="text-align:center">至</view>
+    <view class="Hang">
+      <view style="flex-grow:1.5"></view>
+      <input name="fxrqn" type="number"></input>
+      <view>年</view>
+      <input name="fxrqy" type="number"></input>
+      <view>月</view>
+      <input name="fxrqr" type="number"></input>
+      <view>日</view>
+    </view>
+    <view class="lie" style="margin-top:60px">
+      <view style="flex-grow:1">原因：</view>
+      <input name="yuanyin" placeholder="说明原因" style="width:80%;height:150px;border: 1px solid silver;text-align: left;"></input>
+    </view>
+    <view class="Hang">
+    <view>联系方式：</view>
+    <input name="Lianxifangshi" type="number"></input>
+    </view>
+    <button form-type="submit" class="Rcqjbutton">提交</button>
+  </view>
+</form>

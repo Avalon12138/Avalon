@@ -1,0 +1,29 @@
+.Hang
+{
+  margin: 10px auto;
+  display: flex;
+  width: 90%;
+}
+input
+{
+  width: 10%;
+  border-bottom: 1px solid silver;
+  flex-grow: 1;
+  text-align: center;
+}
+.lie
+{
+  margin: 10px auto;
+  display: flex;
+  width: 90%;
+  height: 200px;
+}
+.Rcqjbutton
+{
+  line-height: 40px;
+  width: 50%;
+  margin: 50px auto;
+  background-color: #0066cc;
+  color: white;
+  font-weight: bold;
+}
